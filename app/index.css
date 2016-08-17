@@ -1,0 +1,54 @@
+body {
+
+  background-color: #fbf9fe;
+}
+.container {
+  height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling:touch;
+}
+.container>div {
+
+}
+.page_title {
+  text-align: center;
+  font-size: 34px;
+  color: #3cc51f;
+  font-weight: 400;
+  margin: 0 15%;
+}
+.page_desc {
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+}
+.hd {
+  padding: 2em 0;
+}
+.weui_vcode .weui_cell_ft > div {
+  height: 44px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.weui_vcode .weui_cell_ft > div > img {
+  height: auto;
+  margin-right: 5px;
+}
+.page {
+  transition: all 0.05s linear;
+}
+.page.ng-leave {
+  transform: translateX(0%);
+}
+.page.ng-leave.ng-leave-active {
+  transform: translateX(-100%);
+}
+.page.ng-enter {
+  transform: translate(100%);
+}
+.page.ng-enter.ng-enter-active {
+  transform: translate(0);
+}
+.weui_toptips {
+  display: block!important;
+}
